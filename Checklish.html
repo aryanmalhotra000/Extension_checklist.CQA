@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension Testing Checklist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-weight: normal;
+        }
+
+        header h1 span {
+            font-weight: bold;
+        }
+
+        header h1 span:nth-child(2) {
+            color: blue;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .feature {
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .dropdown {
+            width: 200px;
+        }
+
+        .dropdown select {
+            width: 100%;
+            padding: 5px;
+            font-size: 16px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><span>Context</span><span>QA</span></h1>
+        <h2>Extension Testing Checklist</h2>
+    </header>
+
+    <div class="content">
+        <div class="section">
+            <h2>Open Extension:</h2>
+            <div class="feature">
+                <label>From Browser</label>
+                <div class="dropdown">
+                    <select>
+                        <option class="bug">Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+            <div class="feature">
+                <label>From Side Panel</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Install Extension:</h2>
+            <div class="feature">
+                <label>Via Chrome Webstore</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+            <div class="feature">
+                <label>Via Website of ContextQA</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+            <div class="feature">
+                <label>Via Dashboard Install Plugin Button</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Login:</h2>
+            <div class="feature">
+                <label>Login via Extension</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+            <div class="feature">
+                <label>Check It Is Not Logging Out After Some Time</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+            <div class="feature">
+                <label>Works Properly When Clicking Record from Platform</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Tip:</h2>
+            <div class="feature">
+                <label>Redirecting Properly to Dashboard of Same Org</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Test Case:</h2>
+            <div class="feature">
+                <label>Recording Working Properly</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+            <div class="feature">
+                <label>Overlay Work Properly</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+            <div class="feature">
+                <label>Not Auto-Stopping</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+            <div class="feature">
+                <label>Working on Dropdown, Checkbox, SVG, Textbox, Iframe, Popup Screen</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+            <div class="feature">
+                <label>Long Steps Not Stopping</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+            <div class="feature">
+                <label>Getting Proper Screenshots, Steps, Test Data</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Find Locator:</h2>
+            <div class="feature">
+                <label>Working on Input</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+            <div class="feature">
+                <label>Working on Checkbox</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+            <div class="feature">
+                <label>Working on SVG</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+            <div class="feature">
+                <label>Working on Dropdown</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+            <div class="feature">
+                <label>Working on Rich Textbox</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+            <div class="feature">
+                <label>Working on Iframe</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+            <div class="feature">
+                <label>Working on Popup Screen</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Element Directory:</h2>
+            <div class="feature">
+                <label>Getting All Elements in One Click</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Generate Heat Map:</h2>
+            <div class="feature">
+                <label>User Coverage</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+            <div class="feature">
+                <label>Test Coverage</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Org Name:</h2>
+            <div class="feature">
+                <label>Check If Org Name Is Same As Login</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Refresh:</h2>
+            <div class="feature">
+                <label>Working Properly</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Logout:</h2>
+            <div class="feature">
+                <label>Working Properly</label>
+                <div class="dropdown">
+                    <select>
+                        <option>Bug</option>
+                        <option>Not Tested</option>
+                        <option>Working Properly</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
